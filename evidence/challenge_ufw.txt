@@ -1,0 +1,2 @@
+37:-A ufw-before-input -p icmp --icmp-type echo-request -j DROP
+43:-A ufw-before-forward -p icmp --icmp-type echo-request -j ACCEPT
